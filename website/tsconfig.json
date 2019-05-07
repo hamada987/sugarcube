@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*"]
+}

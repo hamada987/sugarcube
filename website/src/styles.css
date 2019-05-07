@@ -1,0 +1,5 @@
+@import "tachyons";
+
+body {
+  @insert .ma2 .pa2;
+}
