@@ -21,6 +21,8 @@
     "@types/react-dom": "^16.8.4",
     "gatsby": "^2.4.2",
     "gatsby-plugin-typescript": "^2.0.13",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-remark": "^2.3.12",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "tachyons": "^4.11.1"
@@ -42,8 +44,6 @@
     "husky": "^2.2.0",
     "jsonlint": "^1.6.3",
     "lint-staged": "^8.1.6",
-    "mdast-util-heading-range": "^2.1.2",
-    "mdast-util-to-string": "^1.0.5",
     "postcss": "^7.0.16",
     "postcss-cli": "^6.1.2",
     "postcss-custom-properties": "^8.0.10",
@@ -54,17 +54,10 @@
     "postcss-svg": "^3.0.0",
     "prettier": "^1.17.0",
     "prettier-package-json": "^2.1.0",
-    "remark-parse": "^6.0.3",
-    "remark-stringify": "^6.0.4",
     "rimraf": "^2.6.3",
     "stylelint": "^10.0.1",
     "stylelint-config-recommended": "^2.2.0",
     "typescript": "^3.4.5",
-    "typescript-language-server": "^0.3.7",
-    "unified": "^7.1.0",
-    "unist-builder": "^1.0.3",
-    "unist-util-find": "^1.0.1",
-    "unist-util-find-after": "^2.0.2",
-    "unist-util-find-all-between": "^1.0.2"
+    "typescript-language-server": "^0.3.7"
   }
 }

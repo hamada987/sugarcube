@@ -7,5 +7,16 @@ module.exports = {
         : "https://sugarcubetools.net",
     description: "Documentation for the SugarCube based investigative toolset.",
   },
-  plugins: ["gatsby-plugin-typescript", "gatsby-plugin-postcss"],
+  plugins: [
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-postcss",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "docs",
+        path: `${__dirname}/../docs`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 };
