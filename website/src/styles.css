@@ -1,5 +1,23 @@
 @import "tachyons";
 
-body {
-  @insert .ma2 .pa2;
+:root {
+  --primary-color: rgba(9, 15, 16, 1); /* #090f10 */
+  --primary-color-hover: rgba(38, 61, 66, 1); /* #263d42 */
+  --light-primary-color: rgba(200, 206, 207, 1); /* #c8cecf */
+  --accentuated-color: rgba(255, 237, 0, 1); /* #FFED00 */
 }
+
+
+
+body {
+  @insert .avenir .bg-white .mw9-ns .center .lh-copy;
+}
+
+
+.primary-color { color: var(--primary-color); }
+.bg-primary-color { background-color: var(--primary-color); }
+.bg-light-primary-color { background-color: var(--light-primary-color); }
+.b--primary-color { border-color: var(--primary-color); }
+.accentuated-color { color: var(--accentuated-color); }
+.bg-accentuated-color { border-color: var(--accentuated-color); }
+.b--accentuated-color { border-color: var(--accentuated-color); }

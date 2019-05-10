@@ -1,3 +1,5 @@
+@import "../styles.css";
+
 .nav-link-active {
   border-color: var(--primary-color);
   border-width: 0.2rem;
