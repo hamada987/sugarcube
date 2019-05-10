@@ -1,3 +1,4 @@
+import {Location} from "@reach/router";
 import React from "react";
 
 import Header from "./header";
@@ -5,7 +6,10 @@ import Header from "./header";
 const Layout = ({children}) => {
   return (
     <div>
-      <Header />
+      <Location>{({location}) =>
+        <Header location={location} />
+      }
+      </Location>
       {children}
     </div>
   );

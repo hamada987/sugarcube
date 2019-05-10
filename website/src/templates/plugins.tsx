@@ -1,11 +1,13 @@
 import {Link, graphql} from "gatsby";
 import React from "react";
 
+import Layout from "../components/layout";
+
 export default function Plugins({data}) {
   const {totalCount, edges} = data.allMarkdownRemark;
 
   return (
-    <div>
+    <Layout>
       <h1>Plugins</h1>
       <p>{totalCount} plugins available</p>
       <ul>
@@ -15,7 +17,7 @@ export default function Plugins({data}) {
           </li>
         ))}
       </ul>
-    </div>
+    </Layout>
   );
 }
 

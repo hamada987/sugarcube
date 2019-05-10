@@ -1,0 +1,12 @@
+.nav-link-active {
+  border-color: var(--primary-color);
+  border-width: 0.2rem;
+  border-bottom-style: dotted;
+}
+
+.hover-nav-link:focus,
+.hover-nav-link:hover {
+  border-color: var(--primary-color);
+  border-width: 0.2rem;
+  border-bottom-style: dotted;
+}
